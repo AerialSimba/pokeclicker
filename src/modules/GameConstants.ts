@@ -54,19 +54,19 @@ export const TotalPokemonsPerRegion = [
 
 ];
 
-export const ITEM_USE_TIME = 30;
+export const ITEM_USE_TIME = 10000;
 
-export const ROAMING_MIN_CHANCE = 8192;
-export const ROAMING_MAX_CHANCE = 4096;
+export const ROAMING_MIN_CHANCE = 1;
+export const ROAMING_MAX_CHANCE = 50;
 
 // Shinies
-export const SHINY_CHANCE_BATTLE = 8192;
-export const SHINY_CHANCE_DUNGEON = 4096;
-export const SHINY_CHANCE_STONE = 2048;
-export const SHINY_CHANCE_SAFARI = 2048;
-export const SHINY_CHANCE_SHOP = 1024;
-export const SHINY_CHANCE_BREEDING = 1024;
-export const SHINY_CHANCE_FARM = 1024;
+export const SHINY_CHANCE_BATTLE = 1;
+export const SHINY_CHANCE_DUNGEON = 1;
+export const SHINY_CHANCE_STONE = 1;
+export const SHINY_CHANCE_SAFARI = 1;
+export const SHINY_CHANCE_SHOP = 1;
+export const SHINY_CHANCE_BREEDING = 1;
+export const SHINY_CHANCE_FARM = 1;
 
 export const ITEM_PRICE_MULTIPLIER = 1.00045;
 export const ITEM_PRICE_DEDUCT = 1.0005;
@@ -74,7 +74,7 @@ export const ITEM_PRICE_DEDUCT = 1.0005;
 export const PLATE_VALUE = 100;
 
 // Breeding
-export const BREEDING_ATTACK_BONUS = 25;
+export const BREEDING_ATTACK_BONUS = 2500;
 
 // Farming
 export const FARM_PLOT_WIDTH = 5;
@@ -107,7 +107,7 @@ export const BerryColor = [
 export const BASE_DUNGEON_SIZE = 5;
 export const MIN_DUNGEON_SIZE = 5;
 export const DUNGEON_CHEST_SHOW = 2;
-export const DUNGEON_MAP_SHOW = 4;
+export const DUNGEON_MAP_SHOW = 1;
 
 // Achievements
 export enum AchievementOption {
